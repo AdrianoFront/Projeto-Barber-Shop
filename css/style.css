@@ -197,6 +197,7 @@ body {
   color: var(--color-secondary);
   font-weight: 400;
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .services .boxes {
@@ -223,6 +224,74 @@ body {
 }
 
 .Appointment {
+  padding: 100px 0px;
   background-color: var(--color-primary);
+  height: 100vh;
+  background-image: url(../images/chair-ic.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+
+.Appointment h2 {
+  color: var(--color-primary-light);
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Appointment img {
+  margin: 0 auto;
+  display: block;
+}
+
+.Appointment form {
+  margin-top: 80px;
+}
+
+.Appointment .personal-data {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Appointment .input-wrapper {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.Appointment .input-wrapper:last-of-type {
+  margin-right: 0;
+}
+
+.Appointment label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: var(--color-primary-light);
+}
+
+.Appointment .personal-data input,
+.Appointment .personal-data select,
+.Appointment textarea {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.Appointment textarea {
+  height: 100px;
+}
+
+.Appointment button {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
